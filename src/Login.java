@@ -13,7 +13,7 @@ public class Login extends JFrame implements ActionListener, MouseListener{
     Statement statement;
     
     public Login(){
-        this.setTitle("Meal Management System");
+        this.setTitle("Meal Manager");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(600, 500);
         this.setLocationRelativeTo(null);
@@ -24,9 +24,9 @@ public class Login extends JFrame implements ActionListener, MouseListener{
         panel.setLayout(null);
 
         applicationNameLabel=new JLabel();
-        applicationNameLabel.setText("Meal Management System");
+        applicationNameLabel.setText("Meal Manager");
         applicationNameLabel.setFont(new Font("century gothic", Font.PLAIN, 40));
-        applicationNameLabel.setBounds(34, 0, 600, 60);
+        applicationNameLabel.setBounds(150, 0, 600, 60);
         applicationNameLabel.setForeground(Color.decode("#004d99"));
         panel.add(applicationNameLabel);
 

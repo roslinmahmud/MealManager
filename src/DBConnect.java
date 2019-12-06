@@ -27,7 +27,7 @@ public class DBConnect{
         Connection connection = null;
         Statement statement = null;
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://remotemysql.com/K6ev8vMSS3", "K6ev8vMSS3", "IMvVX1GQSU");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost/java", "root", "");
             statement = connection.createStatement();
             obj.errorLabel.setText("");
         }
