@@ -1,6 +1,5 @@
 # Meal Manager
 
-###  A Meal Management Software for Bachelor
 #### Features
 * Registration system for the manager
 * Manage member menu for Manager to add or remove members
